@@ -1,0 +1,36 @@
+# AI Framework
+langgraph
+langchain
+langchain-core
+langchain-community
+
+# Anthropic
+langchain-anthropic
+anthropic
+
+# API
+fastapi
+uvicorn
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# Configuration
+python-dotenv
+pydantic
+pydantic-settings
+
+# RAG
+chromadb
+pypdf
+
+# Frontend
+streamlit
+
+# Utilities
+httpx
+python-multipart
+
+# Testing
+pytest

@@ -1,27 +1,35 @@
-# M&A Due Diligence AI Platform
-A multi-agent AI system for automating buy-side M&A due diligence.
+# Agentic M&A Due Diligence Platform
+AI platform for automating buy-side M&A due diligence using multi-agent workflows, retrieval-augmented generation, human review, and report generation.
 
-## Features
-- Multi-agent AI workflow using LangGraph
-- Retrieval-Augmented Generation (RAG)
-- Financial, legal, commercial, and cyber due diligence agents
-- Human-in-the-loop approvals
-- Persistent workflow state
-- Executive report generation
-- FastAPI backend
-- Streamlit frontend
-- PostgreSQL database
+## Project Goal
+This project helps investment teams analyze target company documents across financial, legal, commercial, and technical workstreams.
+
+The system is designed to:
+- Upload and analyze diligence documents
+- Retrieve evidence from source files
+- Coordinate specialized AI agents
+- Flag material risks
+- Generate executive-ready diligence reports
+- Maintain auditability and human oversight
 
 ## Tech Stack
-- Python 3.11+
+- Python
+- FastAPI
 - LangGraph
 - LangChain
-- OpenAI
-- FastAPI
+- Anthropic Claude
 - PostgreSQL
 - Chroma
 - Streamlit
 - Docker
 
-## Status
-Under Development
+## Project Status
+UD
+
+## Repository Structure
+```text
+app/        Application source code
+docs/       Project documentation
+tests/      Unit and integration tests
+vault/      Uploaded diligence documents
+output/     Generated reports

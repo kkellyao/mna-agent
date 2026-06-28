@@ -1,0 +1,34 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables (API keys, database URLs)
+.env
+
+# macOS
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# Build artifacts
+dist/
+build/
+
+# Local vector database
+.chroma/
+
+# Uploaded diligence documents
+vault/*
+!vault/.gitkeep
+
+# Generated reports
+output/*
+!output/.gitkeep
